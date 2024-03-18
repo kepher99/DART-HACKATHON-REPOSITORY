@@ -1,2 +1,14 @@
-## Program 2: Perform Mathematical Operations with Functions
-Write a Dart program that performs two mathematical operations using functions.
+void main(){
+  print("Addition: ${add(10, 5)}");
+  print("Subtraction: ${subtract(8, 2)}");
+}
+
+// Function to perform addition
+int add(int a, int b){
+  return a + b;
+}
+
+// Function to perform subtraction
+int subtract(int a, int b){
+  return a - b;
+}
